@@ -26,24 +26,29 @@ export const EmployeesDetails = () => {
 		<div >
 			 <div className={styles.div2}>
         <div className={styles.table} style={{fontWeight:"bolder"}}>
+          <div>ID</div>
           <div>USERNAME</div>
           <div>AGE</div>
-          <div>ADDRESS</div>
-          <div>SALARY</div>
+          <div>GENDER</div>
+          <div>CONTACT</div>
+          <div>IMAGE</div>
           <div>DEPARTMENT</div>
-          <div>IS MARRIED</div>
-          <div>ID</div>
+          <div>SALARY</div>
+       
+         
         </div>
         <div>
           
             <div className={styles.table}>
+            <div>{userDetail.id}</div>
               <div>{userDetail.username}</div>
               <div>{userDetail.age}</div>
-              <div>{userDetail.address}</div>
-              <div>₹{userDetail.salary}</div>
+              <div>{userDetail.gender}</div>
+              <div>{userDetail.contact}</div>
+              <div>{userDetail.image}</div>
               <div>{userDetail.department}</div>
-              <div>{userDetail.isMarried ? "Yes" : "No"}</div>
-              <div>{userDetail.id}</div>
+              <div>₹{userDetail.salary}</div>
+             
             </div>
          
         </div>

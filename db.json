@@ -3,26 +3,22 @@
     {
       "username": "Renaissance",
       "age": "24",
-      "address": "Amritsar",
-      "department": "dep 1",
-      "salary": "47890",
+      "gender":"female",
+      "contact": "9977689410",
+      "image": "img",
+      "department": "IT",
+      "salary": "48840",
       "id": 1
     },
     {
       "username": "Vishal",
       "age": "26",
-      "address": "Chandigarh",
-      "department": "dep 2",
-      "salary": "38790",
+      "gender":"male",
+      "contact": "9945689410",
+      "image": "img",
+      "department": "ACCOUNTS",
+      "salary": "48840",
       "id": 2
-    },
-    {
-      "username": "Tista",
-      "age": "15",
-      "address": "Amritsar",
-      "department": "dep 3",
-      "salary": "20",
-      "id": 3
     }
   ]
 }
